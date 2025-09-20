@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Donate to TCI</title>
+  <style>
+    :root{--accent:#ff2b4a;--card-bg:#e9e9ea;--maxw:720px}
+    *{box-sizing:border-box}
+    body{font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; display:flex; align-items:center; justify-content:center; min-height:100vh; background:#fff}
+    .container{width:100%;max-width:var(--maxw);padding:24px}
+
+    .title-wrap{display:flex;justify-content:center;margin-bottom:18px}
+    .title{border:6px solid #000;border-radius:18px;padding:14px 28px;display:inline-block}
+    .title span{color:var(--accent);font-weight:700;font-size:44px;letter-spacing:0.5px}
+
+    .qr-card{background:var(--card-bg);padding:18px;border-radius:6px;display:flex;justify-content:center}
+    .qr{max-width:100%;height:100%;display:block;box-shadow:0 0 0 6px rgba(0,0,0,0.02)}
+
+    .caption{margin-top:12px;font-size:12px;color:#111; text-align:center}
+
+    .qr-card{position:relative}
+  
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title-wrap">
+      <div class="title"><span>Donate to TCI</span></div>
+    </div>
+
+    <div class="qr-card">
+      <!-- Replace "qr.jpg" with the filename of your QR image. If you're using the uploaded file, rename it to qr.jpg and put it next to this HTML. -->
+      <img src="qr.jpg" alt="QR code" class="qr">
+      <div class="x-badge" aria-hidden="true"></div>
+    </div>
+
+    <p class="caption">To check your money is successfully received you can go back and click on the click button to check</p>
+  </div>
+</body>
+</html>
+
